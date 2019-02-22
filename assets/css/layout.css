@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* UI Color */
+
+.brawl-color
+{
+    color: #cde0de !important;
+}
+.brawl-bg
+{
+    background: #cde0de !important;
+}
+.brawl-border
+{
+    border:1px solid #cde0de !important;
+}
+
+.red-color
+{
+    color:#ff2525 !important;
+}
+.red-bg
+{
+    background: #ff2525 !important;
+}
+.red-border
+{
+    border:1px solid #ff2525 !important;
+}
+
+.gray-color
+{
+    color: #8ba3a1 !important;
+}
+.gray-bg
+{
+    background: #8ba3a1 !important;
+}
+.gray-border
+{
+    border:1px solid #8ba3a1 !important;
+}
+
+.green-color
+{
+    color: #0cc199 !important;
+}
+.green-bg
+{
+    background: #0cc199 !important;
+}
+.green-border
+{
+    border:1px solid #0cc199 !important;
+}
+
+/* Styles */
+body
+{
+    direction: rtl;
+    margin:20px 0 !important;
+    width: 100%;
+}
+.controller .col-md-12
+{
+    margin-bottom: 20px;
+}
+.controller-box
+{
+    border-radius: 100%;
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.controller-box span
+{
+    padding-top: 22.4px;
+}
+.sticky
+{
+    width: 100%;
+    box-shadow: 0px 0px 50px #8ba3a1;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.sticky-header
+{
+    font-size:10px;
+    padding: 10px;
+}
+.sticky-header span
+{
+    cursor: pointer;
+}
+.sticky-header span:hover
+{
+    color: #000;
+    transition: 1s;
+}
+.sticky-content textarea
+{
+    width: 100%;
+    border:none;
+    outline: none;
+    resize: none;
+    min-height: 170px;
+    font-size:12px;
+    padding: 5px;
+}
+.sticky-header .fa-ellipsis-h
+{
+    margin-right: 10px;
+}
+.notes-box
+{
+    margin:10px auto;
+}
+
+
+@media only screen and (max-width: 300px)
+{
+    .notes-box .col-md-3
+    {
+        padding:0px 0px !important;
+    }
+    .row
+    {
+        width: 100%;
+        margin: 0 auto !important;
+    }
+}
